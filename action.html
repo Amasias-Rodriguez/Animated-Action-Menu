@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="action.css">
-    <link rel="stylesheet" href="js/action.js">
     <title>Animated Action Menu</title>
 </head>
 <body>
     <div class="navigation">
         <div class="menuToggle"></div>
-        <div class="menu"></div>
+        <div class="menu">
+            <ul>
+                <li style="--i:0.1s;"><a href="#"><ion-icon name="camera-outline"></ion-icon></a></li>
+                <li style="--i:0.2s;"><a href="#"><ion-icon name="settings-outline"></ion-icon></a></li>
+                <li style="--i:0.3s;"><a href="#"><ion-icon name="trash-outline"></ion-icon></a></li>
+            </ul>
+        </div>
     </div>
     <script src="/js/action.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
